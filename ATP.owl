@@ -3480,7 +3480,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ATP_0000167">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ATP_0000158"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ATP_0000165"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ATP_0000178"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A workflow tag that indicates a reference has been classified for disease.</obo:IAO_0000115>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">zfinf</oboInOwl:created_by>
