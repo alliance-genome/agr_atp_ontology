@@ -15,7 +15,7 @@
         <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alliance Taggs for Papers</dc:title>
         <terms:license rdf:resource="https://github.com/alliance-genome/agr_atp_ontology/blob/main/LICENSE"/>
         <oboInOwl:auto-generated-by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBO-Edit 2.3-beta5</oboInOwl:auto-generated-by>
-        <oboInOwl:date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">19:07:2024 13:00</oboInOwl:date>
+        <oboInOwl:date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">31:07:2024 16:00</oboInOwl:date>
         <oboInOwl:default-namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alliance_tag_papers</oboInOwl:default-namespace>
         <oboInOwl:hasOBOFormatVersion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.2</oboInOwl:hasOBOFormatVersion>
         <oboInOwl:saved-by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">zfinf</oboInOwl:saved-by>
@@ -2769,23 +2769,10 @@
     <!-- http://purl.obolibrary.org/obo/ATP_0000133 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ATP_0000133">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ATP_0000003"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ATP_0000159"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ATP_0000160"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A tag indicating to delay curation of a paper.</obo:IAO_0000115>
-        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">zfinf</oboInOwl:created_by>
-        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2022-08-05T09:47:35Z</oboInOwl:creation_date>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alliance_tag_papers</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ATP:0000133</oboInOwl:id>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ATP#SGD_tag"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">delay</rdfs:label>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ATP_0000135"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ATP_0000133"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A tag indicating to delay curation of a paper.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ORCID:0000-0002-2244-7917</oboInOwl:hasDbXref>
-    </owl:Axiom>
     
 
 
@@ -2819,9 +2806,11 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ATP_0000140"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ATP_0000159"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ATP_0000160"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A workflow tag that indicates a reference needs files but none are available.  Always used to refer to availability for a particular MOD.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A workflow tag that indicates a reference needs files but none are available.  Always used to refer to availability for a particular MOD. The lack of the full text leads to a delay in curation.</obo:IAO_0000115>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">zfinf</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2023-01-26T16:50:13Z</oboInOwl:creation_date>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ATP:0000133</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">delay</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">files unobtainable</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">no files available</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alliance_tag_papers</oboInOwl:hasOBONamespace>
@@ -2831,7 +2820,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ATP_0000135"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A workflow tag that indicates a reference needs files but none are available.  Always used to refer to availability for a particular MOD.</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A workflow tag that indicates a reference needs files but none are available.  Always used to refer to availability for a particular MOD. The lack of the full text leads to a delay in curation.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ORCID:0000-0002-2244-7917</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -3213,7 +3202,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ATP_0000154">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ATP_0000003"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Workflow tag that indicates where in a workflow a particular tag is located.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Workflow tag that indicates the status of a workflow and if the workflow can continue.</obo:IAO_0000115>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">zfinf</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-05-31T13:33:56Z</oboInOwl:creation_date>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alliance_tag_papers</oboInOwl:hasOBONamespace>
@@ -3223,7 +3212,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ATP_0000154"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Workflow tag that indicates where in a workflow a particular tag is located.</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Workflow tag that indicates the status of a workflow and if the workflow can continue.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ORCID:0000-0002-2244-7917</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -3423,7 +3412,7 @@
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-06-03T14:42:46Z</oboInOwl:creation_date>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alliance_tag_papers</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ATP:0000164</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">file conversion failed</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">file to text conversion failed</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ATP_0000164"/>
@@ -3479,8 +3468,7 @@
     <!-- http://purl.obolibrary.org/obo/ATP_0000167 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ATP_0000167">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ATP_0000158"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ATP_0000178"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ATP_0000169"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A workflow tag that indicates a reference has been classified for disease.</obo:IAO_0000115>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">zfinf</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-06-04T13:16:30Z</oboInOwl:creation_date>
@@ -3500,8 +3488,7 @@
     <!-- http://purl.obolibrary.org/obo/ATP_0000168 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ATP_0000168">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ATP_0000158"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ATP_0000178"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ATP_0000169"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A workflow tag that indicates a reference has been classified for catalytic activity.</obo:IAO_0000115>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">zfinf</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-06-04T13:17:52Z</oboInOwl:creation_date>
@@ -3543,8 +3530,7 @@
     <!-- http://purl.obolibrary.org/obo/ATP_0000170 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ATP_0000170">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ATP_0000158"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ATP_0000178"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ATP_0000169"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A workflow tag that indicates a reference has been classified for expression.</obo:IAO_0000115>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">zfinf</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-06-07T10:19:07Z</oboInOwl:creation_date>
@@ -3564,8 +3550,7 @@
     <!-- http://purl.obolibrary.org/obo/ATP_0000171 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ATP_0000171">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ATP_0000158"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ATP_0000178"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ATP_0000169"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A workflow tag that indicates a reference has been classified for interactions.</obo:IAO_0000115>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">zfinf</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-06-07T10:20:38Z</oboInOwl:creation_date>
@@ -3646,7 +3631,7 @@
     <!-- http://purl.obolibrary.org/obo/ATP_0000175 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ATP_0000175">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ATP_0000172"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ATP_0000173"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A workflow tag that indicates a reference needs  entity extraction.</obo:IAO_0000115>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">zfinf</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-06-12T09:54:24Z</oboInOwl:creation_date>
@@ -3709,7 +3694,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ATP_0000178">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ATP_0000156"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ATP_0000165"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A tag that indicates that reference classification is in progress and the reference is either waiting in queue for classification, has had one or more classifiers finish, but not all classification completed.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A tag that indicates that reference classification is in progress and the reference is either waiting in queue for classification, has is in process of being classified.</obo:IAO_0000115>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">zfinf</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-07-19T12:36:59Z</oboInOwl:creation_date>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alliance_tag_papers</oboInOwl:hasOBONamespace>
@@ -3719,7 +3704,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ATP_0000178"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A tag that indicates that reference classification is in progress and the reference is either waiting in queue for classification, has had one or more classifiers finish, but not all classification completed.</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A tag that indicates that reference classification is in progress and the reference is either waiting in queue for classification, has is in process of being classified.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ORCID:0000-0002-2244-7917</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -3728,8 +3713,7 @@
     <!-- http://purl.obolibrary.org/obo/ATP_0000179 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ATP_0000179">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ATP_0000158"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ATP_0000178"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ATP_0000166"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A workflow tag that indicates a reference needs to be classified for disease.</obo:IAO_0000115>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">zfinf</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-07-19T12:46:37Z</oboInOwl:creation_date>
@@ -3749,8 +3733,7 @@
     <!-- http://purl.obolibrary.org/obo/ATP_0000180 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ATP_0000180">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ATP_0000158"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ATP_0000178"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ATP_0000166"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A workflow tag that indicates a reference needs to be classified for catalytic activity.</obo:IAO_0000115>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">zfinf</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-07-19T12:46:52Z</oboInOwl:creation_date>
@@ -3770,8 +3753,7 @@
     <!-- http://purl.obolibrary.org/obo/ATP_0000181 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ATP_0000181">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ATP_0000158"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ATP_0000178"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ATP_0000166"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A workflow tag that indicates a reference needs to be classified for expression.</obo:IAO_0000115>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">zfinf</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-07-19T12:50:50Z</oboInOwl:creation_date>
@@ -3791,8 +3773,7 @@
     <!-- http://purl.obolibrary.org/obo/ATP_0000182 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ATP_0000182">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ATP_0000158"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ATP_0000178"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ATP_0000166"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A workflow tag that indicates a reference needs to be classified for interactions.</obo:IAO_0000115>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">zfinf</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-07-19T12:51:49Z</oboInOwl:creation_date>
@@ -3804,6 +3785,286 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ATP_0000182"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A workflow tag that indicates a reference needs to be classified for interactions.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ORCID:0000-0002-2244-7917</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ATP_0000183 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ATP_0000183">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ATP_0000178"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A tag that indicates that reference is being classified for expression.</obo:IAO_0000115>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">zfinf</oboInOwl:created_by>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-07-24T12:37:36Z</oboInOwl:creation_date>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alliance_tag_papers</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ATP:0000183</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">expression classification in progress</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ATP_0000183"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A tag that indicates that reference is being classified for expression.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ORCID:0000-0002-2244-7917</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ATP_0000184 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ATP_0000184">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ATP_0000178"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A tag that indicates that reference is being classified for catalytic activity.</obo:IAO_0000115>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">zfinf</oboInOwl:created_by>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-07-24T12:38:48Z</oboInOwl:creation_date>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alliance_tag_papers</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ATP:0000184</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">catalytic activity classification in progress</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ATP_0000184"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A tag that indicates that reference is being classified for catalytic activity.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ORCID:0000-0002-2244-7917</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ATP_0000185 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ATP_0000185">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ATP_0000178"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A tag that indicates that reference is being classified for interaction.</obo:IAO_0000115>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">zfinf</oboInOwl:created_by>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-07-24T12:58:14Z</oboInOwl:creation_date>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alliance_tag_papers</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ATP:0000185</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interaction classification in progress</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ATP_0000185"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A tag that indicates that reference is being classified for interaction.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ORCID:0000-0002-2244-7917</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ATP_0000186 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ATP_0000186">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ATP_0000178"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A tag that indicates that reference is being classified for disease .</obo:IAO_0000115>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">zfinf</oboInOwl:created_by>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-07-24T12:59:24Z</oboInOwl:creation_date>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alliance_tag_papers</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ATP:0000186</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease classification in progress</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ATP_0000186"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A tag that indicates that reference is being classified for disease .</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ORCID:0000-0002-2244-7917</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ATP_0000187 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ATP_0000187">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ATP_0000172"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A workflow tag that indicates entity extraction failed for a reference.</obo:IAO_0000115>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">zfinf</oboInOwl:created_by>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-07-31T11:24:08Z</oboInOwl:creation_date>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alliance_tag_papers</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ATP:0000187</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">entity extraction failed</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ATP_0000187"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A workflow tag that indicates entity extraction failed for a reference.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ORCID:0000-0002-2244-7917</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ATP_0000188 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ATP_0000188">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ATP_0000187"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A workflow tag that indicates antibody extraction failed for a reference.</obo:IAO_0000115>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">zfinf</oboInOwl:created_by>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-07-31T11:26:31Z</oboInOwl:creation_date>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alliance_tag_papers</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ATP:0000188</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">antibody extraction failed</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ATP_0000188"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A workflow tag that indicates antibody extraction failed for a reference.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ORCID:0000-0002-2244-7917</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ATP_0000189 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ATP_0000189">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ATP_0000165"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A workflow tag that indicates topic classification failed for a reference.</obo:IAO_0000115>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">zfinf</oboInOwl:created_by>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-07-31T11:28:55Z</oboInOwl:creation_date>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alliance_tag_papers</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ATP:0000189</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reference classification failed</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ATP_0000189"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A workflow tag that indicates topic classification failed for a reference.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ORCID:0000-0002-2244-7917</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ATP_0000190 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ATP_0000190">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ATP_0000172"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A tag that indicates that  entity extraction is in progress and the reference is either waiting in queue for extraction, or is in process of being extracted.</obo:IAO_0000115>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">zfinf</oboInOwl:created_by>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-07-31T11:57:45Z</oboInOwl:creation_date>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alliance_tag_papers</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ATP:0000190</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">entity extraction in progress</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ATP_0000190"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A tag that indicates that  entity extraction is in progress and the reference is either waiting in queue for extraction, or is in process of being extracted.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ORCID:0000-0002-2244-7917</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ATP_0000191 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ATP_0000191">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ATP_0000189"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A workflow tag that indicates catalytic activity  classification failed for a reference.</obo:IAO_0000115>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">zfinf</oboInOwl:created_by>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-07-31T14:47:37Z</oboInOwl:creation_date>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alliance_tag_papers</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ATP:0000191</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">catalytic activity classification failed</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ATP_0000191"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A workflow tag that indicates catalytic activity  classification failed for a reference.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ORCID:0000-0002-2244-7917</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ATP_0000192 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ATP_0000192">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ATP_0000189"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A workflow tag that indicates disease classification failed for a reference.</obo:IAO_0000115>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">zfinf</oboInOwl:created_by>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-07-31T14:48:56Z</oboInOwl:creation_date>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alliance_tag_papers</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ATP:0000192</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease classification failed</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ATP_0000192"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A workflow tag that indicates disease classification failed for a reference.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ORCID:0000-0002-2244-7917</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ATP_0000193 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ATP_0000193">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ATP_0000189"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A workflow tag that indicates expression classification failed for a reference.</obo:IAO_0000115>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">zfinf</oboInOwl:created_by>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-07-31T15:20:53Z</oboInOwl:creation_date>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alliance_tag_papers</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ATP:0000193</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">expression classification failed</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ATP_0000193"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A workflow tag that indicates expression classification failed for a reference.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ORCID:0000-0002-2244-7917</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ATP_0000194 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ATP_0000194">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ATP_0000189"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A workflow tag that indicates interaction classification failed for a reference.</obo:IAO_0000115>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">zfinf</oboInOwl:created_by>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-07-31T15:21:40Z</oboInOwl:creation_date>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alliance_tag_papers</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ATP:0000194</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interaction classification failed</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ATP_0000194"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A workflow tag that indicates interaction classification failed for a reference.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ORCID:0000-0002-2244-7917</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ATP_0000195 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ATP_0000195">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ATP_0000190"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A tag that indicates that antibody extraction is in progress.</obo:IAO_0000115>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">zfinf</oboInOwl:created_by>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-07-31T15:26:09Z</oboInOwl:creation_date>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alliance_tag_papers</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ATP:0000195</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">antibody extraction in progress</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ATP_0000195"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A tag that indicates that antibody extraction is in progress.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ORCID:0000-0002-2244-7917</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ATP_0000196 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ATP_0000196">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ATP_0000174"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A workflow tag that indicates a reference has had antibodies extracted.</obo:IAO_0000115>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">zfinf</oboInOwl:created_by>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-07-31T15:27:19Z</oboInOwl:creation_date>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alliance_tag_papers</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ATP:0000196</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">antibody extraction complete</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ATP_0000196"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A workflow tag that indicates a reference has had antibodies extracted.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ORCID:0000-0002-2244-7917</oboInOwl:hasDbXref>
     </owl:Axiom>
     
