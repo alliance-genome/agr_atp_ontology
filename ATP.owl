@@ -15,7 +15,7 @@
         <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alliance Taggs for Papers</dc:title>
         <terms:license rdf:resource="https://github.com/alliance-genome/agr_atp_ontology/blob/main/LICENSE"/>
         <oboInOwl:auto-generated-by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBO-Edit 2.3-beta5</oboInOwl:auto-generated-by>
-        <oboInOwl:date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10:03:2025 16:57</oboInOwl:date>
+        <oboInOwl:date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12:03:2025 08:48</oboInOwl:date>
         <oboInOwl:default-namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alliance_tag_papers</oboInOwl:default-namespace>
         <oboInOwl:hasOBOFormatVersion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.2</oboInOwl:hasOBOFormatVersion>
         <oboInOwl:saved-by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">zfinf</oboInOwl:saved-by>
@@ -5181,7 +5181,6 @@
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-09-19T10:31:31Z</oboInOwl:creation_date>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alliance_tag_papers</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ATP:0000246</oboInOwl:id>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ATP#WB_tag"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">allele sequence change classification complete</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -5368,7 +5367,6 @@
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-09-20T06:19:40Z</oboInOwl:creation_date>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alliance_tag_papers</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ATP:0000255</oboInOwl:id>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ATP#WB_tag"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">allele sequence change classification failed</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -5473,7 +5471,6 @@
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-09-20T06:29:38Z</oboInOwl:creation_date>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alliance_tag_papers</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ATP:0000260</oboInOwl:id>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ATP#WB_tag"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">allele sequence change classification in progress</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -5579,7 +5576,6 @@
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-09-20T06:54:15Z</oboInOwl:creation_date>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alliance_tag_papers</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ATP:0000265</oboInOwl:id>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ATP#WB_tag"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">allele sequence change classification needed</rdfs:label>
     </owl:Class>
     <owl:Axiom>
