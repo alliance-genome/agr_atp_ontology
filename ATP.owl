@@ -15,7 +15,7 @@
         <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alliance Taggs for Papers</dc:title>
         <terms:license rdf:resource="https://github.com/alliance-genome/agr_atp_ontology/blob/main/LICENSE"/>
         <oboInOwl:auto-generated-by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBO-Edit 2.3-beta5</oboInOwl:auto-generated-by>
-        <oboInOwl:date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">03:07:2025 14:41</oboInOwl:date>
+        <oboInOwl:date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">21:07:2025 15:05</oboInOwl:date>
         <oboInOwl:default-namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alliance_tag_papers</oboInOwl:default-namespace>
         <oboInOwl:hasOBOFormatVersion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.2</oboInOwl:hasOBOFormatVersion>
         <oboInOwl:saved-by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">zfinf</oboInOwl:saved-by>
@@ -458,7 +458,6 @@
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2021-03-15T16:26:09Z</oboInOwl:creation_date>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alliance_tag_papers</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ATP:0000009</oboInOwl:id>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ATP#FB_tag"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ATP#MGI_tag"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ATP#SGD_tag"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ATP#ZFIN_tag"/>
@@ -1151,7 +1150,7 @@
     <!-- http://purl.obolibrary.org/obo/ATP_0000043 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ATP_0000043">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ATP_0000010"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ATP_0000337"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A tag that indicates a publication has data about reporter gene expression.</obo:IAO_0000115>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ceriv</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2021-03-15T17:07:33Z</oboInOwl:creation_date>
@@ -1816,6 +1815,7 @@
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alliance_tag_papers</oboInOwl:hasOBONamespace>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">classical phenotype</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ATP:0000079</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ATP#FB_tag"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ATP#MGI_tag"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ATP#WB_tag"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">genetic phenotype</rdfs:label>
@@ -7072,7 +7072,112 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ATP_0000336"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A workflow tag that indicates that manual indexing is blocked for some reason.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ORCID:Gillian_Millburn</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ORCID:0000-0002-1139-1145</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ATP_0000337 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ATP_0000337">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ATP_0000010"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A tag that indicates a reference has transgene expression. At the alliance a transgene is defined as a segment of genetic material (DNA) that has been artificially introduced into an organism. The term &quot;transgene&quot; is often used to describe a piece of foreign DNA that has been inserted into the genome of an organism through genetic engineering techniques. The transgene can come from any species, or another strain of that species, and can contain any desired sequence of DNA, including genes that confer specific traits or characteristics to the organism. Once introduced into the genome, the transgene becomes a permanent part of the organism&apos;s DNA and can be passed down to future generations.</obo:IAO_0000115>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">zfinf</oboInOwl:created_by>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2025-07-18T13:51:15Z</oboInOwl:creation_date>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alliance_tag_papers</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ATP:0000337</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">transgene expression</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ATP_0000337"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A tag that indicates a reference has transgene expression. At the alliance a transgene is defined as a segment of genetic material (DNA) that has been artificially introduced into an organism. The term &quot;transgene&quot; is often used to describe a piece of foreign DNA that has been inserted into the genome of an organism through genetic engineering techniques. The transgene can come from any species, or another strain of that species, and can contain any desired sequence of DNA, including genes that confer specific traits or characteristics to the organism. Once introduced into the genome, the transgene becomes a permanent part of the organism&apos;s DNA and can be passed down to future generations.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ORCID:0000-0002-2244-7917</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ATP_0000338 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ATP_0000338">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ATP_0000337"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A tag that indicates that transgene expression is occurring in the nervous system of a transgenic organism.</obo:IAO_0000115>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">zfinf</oboInOwl:created_by>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2025-07-18T13:56:10Z</oboInOwl:creation_date>
+        <oboInOwl:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">neur_exp</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alliance_tag_papers</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ATP:0000338</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ATP#FB_tag"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">expression of transgene in nervous system</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ATP_0000338"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A tag that indicates that transgene expression is occurring in the nervous system of a transgenic organism.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ORCID:0000-0002-1139-1145</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ORCID:0000-0002-2244-7917</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ATP_0000339 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ATP_0000339">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ATP_0000002"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A tag that indicates a publication has data that contains significant characterization of a gene.</obo:IAO_0000115>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">zfinf</oboInOwl:created_by>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2025-07-18T14:05:50Z</oboInOwl:creation_date>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alliance_tag_papers</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ATP:0000339</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ATP#FB_tag"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gene characterization</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ATP_0000339"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A tag that indicates a publication has data that contains significant characterization of a gene.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ORCID:0000-0002-1139-1145</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ATP_0000340 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ATP_0000340">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ATP_0000339"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A tag that indicates a publication has data that suggests two or more current gene records in the database need to be merged.</obo:IAO_0000115>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">zfinf</oboInOwl:created_by>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2025-07-18T14:07:17Z</oboInOwl:creation_date>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alliance_tag_papers</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ATP:0000340</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gene merge</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ATP_0000340"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A tag that indicates a publication has data that suggests two or more current gene records in the database need to be merged.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ORCID:0000-0002-1139-1145</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ATP_0000341 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ATP_0000341">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ATP_0000339"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A tag that indicates a publication has data that suggests one or more current gene records in the database need to be split.</obo:IAO_0000115>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">zfinf</oboInOwl:created_by>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2025-07-18T14:08:12Z</oboInOwl:creation_date>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alliance_tag_papers</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ATP:0000341</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ATP#FB_tag"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gene split</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ATP_0000341"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A tag that indicates a publication has data that suggests one or more current gene records in the database need to be split.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ORCID:0000-0002-1139-1145</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
