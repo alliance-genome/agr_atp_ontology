@@ -15,7 +15,7 @@
         <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alliance Taggs for Papers</dc:title>
         <terms:license rdf:resource="https://github.com/alliance-genome/agr_atp_ontology/blob/main/LICENSE"/>
         <oboInOwl:auto-generated-by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBO-Edit 2.3-beta5</oboInOwl:auto-generated-by>
-        <oboInOwl:date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">21:07:2025 15:05</oboInOwl:date>
+        <oboInOwl:date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">25:07:2025 11:33</oboInOwl:date>
         <oboInOwl:default-namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alliance_tag_papers</oboInOwl:default-namespace>
         <oboInOwl:hasOBOFormatVersion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.2</oboInOwl:hasOBOFormatVersion>
         <oboInOwl:saved-by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">zfinf</oboInOwl:saved-by>
@@ -4011,6 +4011,7 @@
     <!-- http://purl.obolibrary.org/obo/ATP_0000190 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ATP_0000190">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ATP_0000156"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ATP_0000172"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A tag that indicates that  entity extraction is in progress and the reference is either waiting in queue for extraction, or is in process of being extracted.</obo:IAO_0000115>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">zfinf</oboInOwl:created_by>
@@ -4989,6 +4990,7 @@
     <!-- http://purl.obolibrary.org/obo/ATP_0000236 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ATP_0000236">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ATP_0000160"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ATP_0000230"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A workflow tag that indicates curation of a reference, data type or entity is blocked.</obo:IAO_0000115>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">zfinf</oboInOwl:created_by>
@@ -5010,6 +5012,7 @@
     <!-- http://purl.obolibrary.org/obo/ATP_0000237 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ATP_0000237">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ATP_0000156"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ATP_0000230"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A workflow tag that indicates a reference, data type or entity is being curated by a professional biocurator.</obo:IAO_0000115>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">zfinf</oboInOwl:created_by>
@@ -5031,6 +5034,7 @@
     <!-- http://purl.obolibrary.org/obo/ATP_0000238 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ATP_0000238">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ATP_0000155"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ATP_0000230"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A workflow tag that indicates a reference, data type or entity needs curation by a professional biocurator.</obo:IAO_0000115>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">zfinf</oboInOwl:created_by>
@@ -5052,6 +5056,7 @@
     <!-- http://purl.obolibrary.org/obo/ATP_0000239 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ATP_0000239">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ATP_0000157"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ATP_0000230"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A workflow tag that indicates a reference, data type or entity has been curated.</obo:IAO_0000115>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">zfinf</oboInOwl:created_by>
@@ -6300,6 +6305,7 @@
     <!-- http://purl.obolibrary.org/obo/ATP_0000299 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ATP_0000299">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ATP_0000157"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ATP_0000230"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A workflow tag that indicates curation of a reference, data type or entity won&apos;t be done.</obo:IAO_0000115>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">zfinf</oboInOwl:created_by>
@@ -6569,6 +6575,7 @@
     <!-- http://purl.obolibrary.org/obo/ATP_0000312 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ATP_0000312">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ATP_0000157"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ATP_0000311"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A workflow tag that indicates a reference has been classified by a classifier that applies classification tags.</obo:IAO_0000115>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">zfinf</oboInOwl:created_by>
@@ -6589,6 +6596,7 @@
     <!-- http://purl.obolibrary.org/obo/ATP_0000313 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ATP_0000313">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ATP_0000155"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ATP_0000311"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A workflow tag that indicates a reference needs to be classified by a classifier that applies classification tags.</obo:IAO_0000115>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">zfinf</oboInOwl:created_by>
@@ -6609,6 +6617,7 @@
     <!-- http://purl.obolibrary.org/obo/ATP_0000314 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ATP_0000314">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ATP_0000156"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ATP_0000311"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A workflow tag that indicates a reference is being classified by a classifier that applies classification tags.</obo:IAO_0000115>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">zfinf</oboInOwl:created_by>
@@ -6934,6 +6943,7 @@
     <!-- http://purl.obolibrary.org/obo/ATP_0000330 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ATP_0000330">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ATP_0000157"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ATP_0000329"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A tag that indicates that first pass curation is finished.</obo:IAO_0000115>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">zfinf</oboInOwl:created_by>
@@ -6955,6 +6965,7 @@
     <!-- http://purl.obolibrary.org/obo/ATP_0000331 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ATP_0000331">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ATP_0000155"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ATP_0000329"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A tag that indicates that first pass curation is needed.</obo:IAO_0000115>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">zfinf</oboInOwl:created_by>
@@ -6976,6 +6987,7 @@
     <!-- http://purl.obolibrary.org/obo/ATP_0000332 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ATP_0000332">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ATP_0000156"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ATP_0000329"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A tag that indicates that first pass curation is in progress.</obo:IAO_0000115>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">zfinf</oboInOwl:created_by>
@@ -6997,6 +7009,7 @@
     <!-- http://purl.obolibrary.org/obo/ATP_0000333 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ATP_0000333">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ATP_0000160"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ATP_0000329"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A tag that indicates that first pass curation is blocked for some reason.</obo:IAO_0000115>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">zfinf</oboInOwl:created_by>
@@ -7145,17 +7158,20 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ATP_0000340">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ATP_0000339"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A tag that indicates a publication has data that suggests two or more current gene records in the database need to be merged.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A tag that indicates a publication has data that suggests two or more current gene records in the database need to be merged.  Note that this includes cases where one or more of the gene records represents a genetic locus that has not yet been localized to the genome.</obo:IAO_0000115>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">zfinf</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2025-07-18T14:07:17Z</oboInOwl:creation_date>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gene record merge</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alliance_tag_papers</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ATP:0000340</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ATP#FB_tag"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WB curators should use gene model for gene structure corrections.</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gene merge</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ATP_0000340"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A tag that indicates a publication has data that suggests two or more current gene records in the database need to be merged.</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A tag that indicates a publication has data that suggests two or more current gene records in the database need to be merged.  Note that this includes cases where one or more of the gene records represents a genetic locus that has not yet been localized to the genome.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ORCID:0000-0002-1139-1145</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -7165,18 +7181,20 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ATP_0000341">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ATP_0000339"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A tag that indicates a publication has data that suggests one or more current gene records in the database need to be split.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A tag that indicates a publication has data that suggests one or more current gene records in the database need to be split.  Note that this includes cases where one or more of the gene records represents a genetic locus that has not yet been localized to the genome.</obo:IAO_0000115>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">zfinf</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2025-07-18T14:08:12Z</oboInOwl:creation_date>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gene record split</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alliance_tag_papers</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ATP:0000341</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ATP#FB_tag"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WB curators should use gene model for gene structure corrections.</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gene split</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ATP_0000341"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A tag that indicates a publication has data that suggests one or more current gene records in the database need to be split.</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A tag that indicates a publication has data that suggests one or more current gene records in the database need to be split.  Note that this includes cases where one or more of the gene records represents a genetic locus that has not yet been localized to the genome.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ORCID:0000-0002-1139-1145</oboInOwl:hasDbXref>
     </owl:Axiom>
     
