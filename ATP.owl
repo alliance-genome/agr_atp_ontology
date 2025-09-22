@@ -15,7 +15,7 @@
         <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alliance Taggs for Papers</dc:title>
         <terms:license rdf:resource="https://github.com/alliance-genome/agr_atp_ontology/blob/main/LICENSE"/>
         <oboInOwl:auto-generated-by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBO-Edit 2.3-beta5</oboInOwl:auto-generated-by>
-        <oboInOwl:date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11:09:2025 11:19</oboInOwl:date>
+        <oboInOwl:date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">22:09:2025 12:33</oboInOwl:date>
         <oboInOwl:default-namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alliance_tag_papers</oboInOwl:default-namespace>
         <oboInOwl:hasOBOFormatVersion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.2</oboInOwl:hasOBOFormatVersion>
         <oboInOwl:saved-by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">zfinf</oboInOwl:saved-by>
@@ -507,6 +507,7 @@
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ATP:0000011</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ATP#FB_tag"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ATP#MGI_tag"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ATP#RGD_tag"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ATP#SGD_tag"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ATP#WB_tag"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ATP#ZFIN_tag"/>
@@ -949,7 +950,7 @@
     <!-- http://purl.obolibrary.org/obo/ATP_0000033 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ATP_0000033">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ATP_0000009"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ATP_0000010"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A tag that indicates a publication has data about location of gene function at a particular location within an organism.</obo:IAO_0000115>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ceriv</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2021-03-15T16:50:33Z</oboInOwl:creation_date>
@@ -2406,6 +2407,7 @@
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alliance_tag_papers</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ATP:0000110</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ATP#MGI_tag"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ATP#WB_tag"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FB: transgenic allele as used by other MODS is more equivalent to our insertions (FBti) than our transgenic constructs (FBtp) as most MODs use transgenic allele for specific strain containing a transgene. So FB will probably end up NOT using this in triaging, but should use transgenic construct instead.</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">transgenic allele</rdfs:label>
     </owl:Class>
@@ -7346,6 +7348,27 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A tag that indicates the reference has a retraction notice and the entire reference has been retracted.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ORCID:0000-0002-2244-7917</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ATP_0000349 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ATP_0000349">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ATP_0000010"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A tag that indicates a publication has data about the time of gene function at a particular biological stage or phase within an organism&apos; life cycle.</obo:IAO_0000115>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">zfinf</oboInOwl:created_by>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2025-09-17T09:11:52Z</oboInOwl:creation_date>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alliance_tag_papers</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ATP:0000349</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ATP#WB_tag"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">time of action</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ATP_0000349"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A tag that indicates a publication has data about the time of gene function at a particular biological stage or phase within an organism&apos; life cycle.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ORCID:0000-0002-1706-4196</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
