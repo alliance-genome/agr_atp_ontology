@@ -15,7 +15,7 @@
         <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alliance Taggs for Papers</dc:title>
         <terms:license rdf:resource="https://github.com/alliance-genome/agr_atp_ontology/blob/main/LICENSE"/>
         <oboInOwl:auto-generated-by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBO-Edit 2.3-beta5</oboInOwl:auto-generated-by>
-        <oboInOwl:date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">01:10:2025 15:20</oboInOwl:date>
+        <oboInOwl:date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">07:10:2025 12:06</oboInOwl:date>
         <oboInOwl:default-namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alliance_tag_papers</oboInOwl:default-namespace>
         <oboInOwl:hasOBOFormatVersion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.2</oboInOwl:hasOBOFormatVersion>
         <oboInOwl:saved-by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">zfinf</oboInOwl:saved-by>
@@ -508,7 +508,6 @@
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ATP#MGI_tag"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ATP#RGD_tag"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ATP#SGD_tag"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ATP#WB_tag"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ATP#ZFIN_tag"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease</rdfs:label>
     </owl:Class>
@@ -532,7 +531,6 @@
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ATP:0000012</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ATP#FB_tag"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ATP#MGI_tag"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ATP#WB_tag"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ATP#ZFIN_tag"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO (gene ontology)</rdfs:label>
     </owl:Class>
@@ -640,7 +638,6 @@
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2021-03-15T16:31:14Z</oboInOwl:creation_date>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alliance_tag_papers</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ATP:0000017</oboInOwl:id>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ATP#WB_tag"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ATP#ZFIN_tag"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">anatomical data</rdfs:label>
     </owl:Class>
@@ -1202,6 +1199,7 @@
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ATP:0000048</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ATP#FB_tag"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ATP#MGI_tag"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ATP#WB_tag"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ATP#ZFIN_tag"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">May have more specific children in the future.</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nomenclature</rdfs:label>
@@ -1401,6 +1399,7 @@
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2021-03-16T09:41:11Z</oboInOwl:creation_date>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alliance_tag_papers</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ATP:0000059</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ATP#WB_tag"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biological process</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -1505,6 +1504,7 @@
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2021-03-16T09:46:00Z</oboInOwl:creation_date>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alliance_tag_papers</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ATP:0000064</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ATP#WB_tag"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cellular component</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -1656,6 +1656,7 @@
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2021-03-23T15:53:10Z</oboInOwl:creation_date>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alliance_tag_papers</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ATP:0000071</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ATP#WB_tag"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">functional complementation</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -1819,7 +1820,6 @@
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ATP:0000079</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ATP#FB_tag"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ATP#MGI_tag"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ATP#WB_tag"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">genetic phenotype</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -1927,6 +1927,7 @@
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alliance_tag_papers</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ATP:0000084</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ATP#SGD_tag"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ATP#WB_tag"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">overexpression phenotype</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -2033,6 +2034,7 @@
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2021-04-05T13:18:10Z</oboInOwl:creation_date>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alliance_tag_papers</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ATP:0000089</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ATP#WB_tag"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">domain functional analysis</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -4817,7 +4819,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ATP_0000228">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ATP_0000321"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A tag that indicates there is data that hasn&apos;t previously been curated by the MOD.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A tag that indicates there is data that hasn&apos;t previously been curated by the MOD. Usage note: This is orthogonal (independent) to from new to field.</obo:IAO_0000115>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">zfinf</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-09-19T07:24:45Z</oboInOwl:creation_date>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alliance_tag_papers</oboInOwl:hasOBONamespace>
@@ -4828,7 +4830,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ATP_0000228"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A tag that indicates there is data that hasn&apos;t previously been curated by the MOD.</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A tag that indicates there is data that hasn&apos;t previously been curated by the MOD. Usage note: This is orthogonal (independent) to from new to field.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ORCID:0000-0002-1706-4196</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ORCID:0000-0002-2244-7917</oboInOwl:hasDbXref>
     </owl:Axiom>
@@ -4839,7 +4841,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ATP_0000229">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ATP_0000321"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A tag that indicates data that is newly described in the literature. And the wording indicates this data has never been reported before.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A tag that indicates data that is newly described in the literature. And the wording indicates this data has never been reported before. Usage note: This is orthogonal (independent) from new to database.</obo:IAO_0000115>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">zfinf</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-09-19T07:28:54Z</oboInOwl:creation_date>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">new to literature</oboInOwl:hasExactSynonym>
@@ -4852,7 +4854,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ATP_0000229"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A tag that indicates data that is newly described in the literature. And the wording indicates this data has never been reported before.</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A tag that indicates data that is newly described in the literature. And the wording indicates this data has never been reported before. Usage note: This is orthogonal (independent) from new to database.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ORCID:0000-0002-1706-4196</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ORCID:0000-0002-2244-7917</oboInOwl:hasDbXref>
     </owl:Axiom>
@@ -7404,7 +7406,7 @@
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2025-10-01T11:07:59Z</oboInOwl:creation_date>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alliance_tag_papers</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ATP:0000351</oboInOwl:id>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ATP#XB_tag"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ATP#WB_tag"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">environmental phenotype</rdfs:label>
     </owl:Class>
     <owl:Axiom>
